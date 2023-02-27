@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Lexed | Accueil</title>
+</head>
+<body>
+    <header>
+        <div class="info-container">
+            <div class="rdv-buttons">
+                <div class="l-button">
+                    <i class='bx bxs-calendar-check'></i>
+                    Prendre RDV en ligne
+                </div>
+                <div class="r-button">
+                    <a href="tel:+226 45 65 78 98 10">+226 45 65 78 98 10</a>
+                    <div class="free">
+                        BFA <br>
+                        Gratuit
+                    </div>
+                </div>
+            </div>
+            <div class="title-links">
+                Je suis
+                <a href="#">Avocat</a> -
+                <a href="#">Huissier</a> -
+                <a href="#">Notaire</a> 
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="nav-links">
+                <ul>
+                    <li><img src="./img/logo_lexed.png" alt="logo" width="150px"></li>
+                    <li>Accueil</li>
+                    <li>A Propos</li>
+                    <li>Guides et fiches pratiques</li>
+                    <li>Nous rejoindre</li>
+                    <li>FaQ</li>
+                    <li>Contactez-nous</li>
+                </ul>
+            </div>
+            <div class="nav-buttons">
+                <button class="sign-in">Se connecter</button>
+                <button class="sign-up">S'inscrire</button>
+            </div>
+            <div class="search-section">
+                <div class="square"></div>
+                <div class="search-group">
+                    <input type="search" name="" placeholder="Recherchez un avocat">
+                    <div class="button-search">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover">
+            <div class="cover-img">
+                <img src="./img/hero.png" alt="cover">
+            </div>
+            <div class="cover-info">
+                <p>Trouver mon <span>Avocat</span></p>
+                <div class="warpper">
+                    <input class="radio" id="one" name="group" type="radio" checked>
+                    <input class="radio" id="two" name="group" type="radio">
+                    <input class="radio" id="three" name="group" type="radio">
+                    <div class="tabs">
+                    <label class="tab" id="one-tab" for="one">Avocats</label>
+                    <label class="tab" id="two-tab" for="two">Notaires</label>
+                    <label class="tab" id="three-tab" for="three">Huissiers</label>
+                      </div>
+                    <div class="panels">
+                    <div class="panel" id="one-panel">
+                      <div class="panel-title">
+                        Mon rendez-vous avec un <br> <span>Avocat</span>
+                      </div>
+                    <div class="select-row">
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option>Domaine de compétences</option>
+                                <option value="1">Domaine 1 </option>
+                                <option value="2">Domaine 2</option>
+                                <option value="3">Domaine 3</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option>Choisir la région</option>
+                                <option value="1">Region 1 </option>
+                                    <option value="2">Region 2</option>
+                                    <option value="3">Region 3</option>
+                            </select>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="button-row">
+                        <button>Valider</button>
+                    </div>
+                    </div>
+                    <div class="panel" id="two-panel">
+                      <div class="panel-title">
+                        Mon rendez-vous avec un <br> <span>Notaire</span>
+                      </div>
+                    <div class="select-column">
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option>Domaine de compétences</option>
+                                <option value="1">Domaine 1 </option>
+                                <option value="2">Domaine 2</option>
+                                <option value="3">Domaine 3</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option>Choisir la région</option>
+                                <option value="1">Region 1 </option>
+                                    <option value="2">Region 2</option>
+                                    <option value="3">Region 3</option>
+                            </select>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="button-row">
+                        <button>Valider</button>
+                    </div>
+                    </div>
+                    <div class="panel" id="three-panel">
+                      <div class="panel-title">
+                        Mon rendez-vous avec un <br> <span>Huissier</span>
+                      </div>
+                      <div class="select-column">
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option>Domaine de compétences</option>
+                                <option value="1">Domaine 1 </option>
+                                <option value="2">Domaine 2</option>
+                                <option value="3">Domaine 3</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option>Choisir la région</option>
+                                <option value="1">Region 1 </option>
+                                    <option value="2">Region 2</option>
+                                    <option value="3">Region 3</option>
+                            </select>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="button-row">
+                        <button>Valider</button>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <div class="categories-section">
+        <div class="blue-banner"></div>
+        <div class="light-banner"></div>
+        <div class="card-container">
+            <div class="card even">
+                <i class='bx bx-plus-circle' id="plus"></i>
+                <i class='bx bx-book' id="icon"></i>
+                <p>Transiger</p>
+            </div>
+            <div class="card">
+                <i class='bx bx-plus-circle' id="plus"></i>
+                <i class='bx bx-book' id="icon"></i>
+                <p>Transaction <br>Immobilière</p>
+            </div>
+            <div class="card even">
+                <i class='bx bx-plus-circle' id="plus"></i>
+                <i class='bx bx-book' id="icon"></i>
+                <p>S'informer Sur <br>Son Dossier</p>
+            </div>
+            <div class="card">
+                <i class='bx bx-plus-circle' id="plus"></i>
+                <i class='bx bx-book' id="icon"></i>
+                <p>Excécution De <br>Décision</p>
+            </div>
+            <div class="card even">
+                <i class='bx bx-plus-circle' id="plus"></i>
+                <i class='bx bx-book' id="icon"></i>
+                <p>Demande de <br>Médiation</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-section">
+        <div class="about-title">
+            <h3>Qui est LEXSED ?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="about-card">
+            <div class="card">
+                <div class="head">
+                    <i class='bx bx-message-rounded-detail'></i>
+                <h2>Sed ut perspiciatis</h2>
+                </div>
+                <div class="detail">
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <i class='bx bx-tachometer'></i>
+                <h2>Sed ut perspiciatis</h2>
+                </div>
+                <div class="detail">
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <i class='bx bx-sun'></i>
+                    <h2>Sed ut perspiciatis</h2>
+                </div>
+                <div class="detail">
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partner-section">
+        <h1>Nos partenaires</h1>
+        <div class="partner-card">
+            <div class="card">
+                <img src="./img/Rectanglea.png" alt="image">
+            </div>
+            <div class="card">
+                <img src="./img/Rectanglea.png" alt="image">
+            </div>
+            <div class="card">
+                <img src="./img/Rectanglea.png" alt="image">
+            </div>
+            <div class="card">
+                <img src="./img/Rectanglea.png" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial-section">
+        <div class="testimonial-head">
+            <h1>Témoignages des professionels</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="testimonial-card">
+            <div class="card">
+                <img src="./img/Rectangleb.png" alt="image" width="260px">
+                <div class="info">
+                    <h1>Olivier David</h1>
+                    <h3>Huissier de justice</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lobortis elit velit, est elementum interdum nibh. </p>
+            </div>
+            <div class="card">
+                <img src="./img/Rectangle-1a.png" alt="image" width="260px">
+                <div class="info">
+                    <h1>Sarah Tabou</h1>
+                    <h3>Avocate</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lobortis elit velit, est elementum interdum nibh. </p>
+            </div>
+            <div class="card">
+                <img src="./img/Rectangle-2a.png" alt="image" width="260px">
+                <div class="info">
+                    <h1>Pierre Saint</h1>
+                    <h3>Notaire</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lobortis elit velit, est elementum interdum nibh. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="client-section">
+        <div class="client-head">
+            <h1>Avis des clients</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="client-card">
+            <div class="card">
+                <img src="./img/Rectangleb.png" alt="image" width="260px">
+                <div class="info">
+                    <h1>Paula Jean</h1>
+                    <h3>Assistance sociale</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lobortis elit velit, est elementum interdum nibh. </p>
+            </div>
+            <div class="card">
+                <img src="./img/Rectangle-1a.png" alt="image" width="260px">
+                <div class="info">
+                    <h1>Louis Charles</h1>
+                    <h3>Cuisinier</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lobortis elit velit, est elementum interdum nibh. </p>
+            </div>
+            <div class="card">
+                <img src="./img/Rectangle-2a.png" alt="image" width="260px">
+                <div class="info">
+                    <h1>Manon Pierre</h1>
+                    <h3>Professeur d'école</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lobortis elit velit, est elementum interdum nibh. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="join-us">
+        <div class="join-head">
+            <div class="join-title">
+                <h1>Nous rejoindre</h1> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div class="join-circle">
+                <div class="join-se-circle"></div>
+
+            </div>
+        </div>
+        <div class="join-content">
+            <div class="join-image">
+                <img src="img/Rectangle.png" alt="our Society">
+            </div>
+
+            <div class="join-text">
+                <h1>Sed ut perspiciatis unde omnis</h1>
+                <p>
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+                    <br><br>
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+                </p>
+                <button type="submit">Nous rejoindre</button>
+            </div>
+        </div>
+    </div>
+    <div class="actuality-part">
+        <div class="actuality-title">
+            <h1>Les actualités</h1> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+        <div class="actualities">
+            <div class="actuality">
+                <div class="at-image">
+                    <img src="img/Rectangle-2.png" alt="">
+                </div>
+                <div class="time">
+                    <i class='bx bx-timer'></i>
+                    <p> 5min</p>
+                </div>
+                <div class="details">
+                    <h1>
+                        Lorem ipsum dolor sit amet consectetur?
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem facilis, minus corporis quos ducimus optio tenetur.
+                    </p>
+                    <p class="detail-date"><strong>Publié le :</strong> 24 juin 2</p>
+                </div>
+            </div>
+
+            <div class="actuality">
+                <div class="at-image">
+                    <img src="img/Rectangle-1.png" alt="">
+                </div>
+                <div class="time">
+                    <i class='bx bx-timer'></i>
+                    <p> 5min</p>
+                </div>
+                <div class="details">
+                    <h1>
+                        Lorem ipsum dolor sit amet consectetur?
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem facilis, minus corporis quos ducimus optio tenetur.
+                    </p>
+                    <p class="detail-date"><strong>Publié le :</strong> 24 juin 2</p>
+                </div>
+            </div>
+
+            <div class="actuality">
+                <div class="at-image">
+                    <img src="img/Rectangle-1a.png" alt="">
+                </div>
+                <div class="time">
+                    <i class='bx bx-timer'></i>
+                    <p> 10min</p>
+                </div>
+                <div class="details">
+                    <h1>
+                        Lorem ipsum dolor sit amet consectetur?
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem facilis, minus corporis quos ducimus optio tenetur.
+                    </p>
+                    <p class="detail-date"><strong>Publié le :</strong> 24 juin 2</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="according-part">
+        <div class="according-title">
+            <h1>FAQ Particuliers</h1> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        </div>
+        <div class="accord">
+            <div class="accordion">
+                <input type="checkbox" id="tab1" />
+                <label class="accordion-label" for="tab1">Pourquoi consulter un avocat, un huissier et un notaire ?
+                    <i class='bx bxs-chevron-down'></i></label>
+                <p class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                </p>
+            </div>
+            
+            <div class="accordion">
+                <input type="checkbox" id="tab2" />
+                <label class="accordion-label" for="tab2">Un avocat ? Oui ! Mais dans quel domaine ?
+                    <i class='bx bxs-chevron-down'></i></label>
+                <p class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <input type="checkbox" id="tab3" />
+                <label class="accordion-label" for="tab3">Comment trouver l’avocat qui me convient ?
+                    <i class='bx bxs-chevron-down'></i></label>
+                <p class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                </p>
+            </div>
+            <div class="accordion">
+                <input type="checkbox" id="tab4" />
+                <label class="accordion-label" for="tab4">Pourquoi me demande-t-on de payer pour valider mon RDV ?
+                    <i class='bx bxs-chevron-down'></i></label>
+                <p class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <input type="checkbox" id="tab5" />
+                <label class="accordion-label" for="tab5">« Aucun créneau disponible actuellement », pourquoi ?
+                    <i class='bx bxs-chevron-down'></i></label>
+                <p class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <input type="checkbox" id="tab6" />
+                <label class="accordion-label" for="tab6">«L’avocat, l’huissier et le notaire vont-ils être avertis de mon RDV ?
+                    <i class='bx bxs-chevron-down'></i></label>
+                <p class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="links">
+            <ul>
+                <li><a href="#">Lien1</a></li>
+                <br>
+                <li><a href="#">Lien</a></li>
+                <li><a href="#" class="links3">Lien</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Lien2</a></li>
+                <br>
+                <li><a href="#">Lien</a></li>
+                <li><a href="#" class="links3">Lien</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Lien3</a></li>
+                <br>
+                <li><a href="#">Lien</a></li>
+                <li><a href="#" class="links3">Lien</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="follow-us">
+            <a href="#" class="follows-links">
+               <div class=" user-icon-circle"> <i class='bx bxs-user-plus' ></i></div>
+                <div class="follow-space"> <p> follow us</p></div>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
